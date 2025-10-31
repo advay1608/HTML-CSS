@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div><a class="navbar-e1" href="index.html" alt="Logo">Amazon</a></div>
+            <div><a class="navbar-e2" href="#" alt ="Aaccount & Lists">Account & Lists</a></div>
+            <div><a class="navbar-e3" href="order.html" alt="Returns & Orders">Returns & Orders</a></div>
+            <div><a class="navbar-e4" href="cart.html" alt="Cart">Cart</a></div>
+            <div><input type="text" class="search-bar" placeholder="Search..">
+            <button class="search-btn">&#x1F50E</button></div>
+        </div>
+    </header>
+    <main>
+        <div class = "Title" >
+        <h1 class="YourOrder">Your Orders</h1>
+        </div>
+        <div class = "order-container">
+            <div class="completed">
+                <h2 class="y2">Completed Orders</h2>
+            <div class="order-item">
+                <img src="image.png" alt="Headphones" class="order-item-image">
+                <div class="order-item-details">
+                    <h2>Headphones</h2>
+                    <p>Order Date: Jan 1, 2024</p>
+                    <p>Price: $20.00</p>
+                    <p>Status: Delivered</p>
+                    <button class="return-btn">Return</button>
+                </div>
+            </div>
+            </div>
+            <div class="pending">
+                <h2 class="y3">Pending Orders</h2>
+                <div class="order-item">
+                <img src="image copy.png" alt="Speakers" class="order-item-image">
+                    <div class="order-item-details">
+                        <h2>Speakers</h2>
+                        <p>Order Date: Feb 15, 2024</p>
+                        <p>Price: $20.00</p>
+                        <p>Status: Shipped</p>
+                        <button class="cancel-order-btn">Cancel Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Tracking-section">
+            <h2>Track Your Order</h2> 
+            <div class="order-status">
+                <p>Enter your order ID to track your shipment.</p>
+                <input type="text" class="order-id-input" placeholder="Order ID">
+                <button class="track-order-btn">Track Order</button>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

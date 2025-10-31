@@ -1,0 +1,98 @@
+.order-container{
+    margin-top:50px;
+    text-align:start;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+}
+.order-item{
+    background-color:#fff;
+    border:none;
+    border-radius:8px;
+    width:400px;
+    height:300px;
+    margin:15px;
+    padding:15px;
+    text-align:center;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.1);
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.order-item img{
+    max-width:200px;
+    border-radius:8px;
+}
+.pending{
+    padding:8px 15px;
+    font-size:14px;
+    color:black;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}   
+.return-btn{
+    padding:8px 15px;
+    margin-top: 15px;
+    font-size:14px;
+    background-color: #ff4d4d;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.return-btn:hover{
+    background-color:#751f1f;
+}
+.return-btn:active{
+    background-color: #3d0f0f; 
+    transform:scale(0.9);
+}
+.cancel-order-btn{
+    padding:8px 15px;
+    margin-top: 15px;
+    font-size:14px;
+    background-color: #ff4d4d;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.cancel-order-btn:hover{
+    background-color:#751f1f;
+}
+.cancel-order-btn:active{
+    background-color: #3d0f0f; 
+    transform:scale(0.9);
+}
+.YourOrder{
+    color:rgb(254, 197, 8);
+    margin-bottom:20px;
+    background-color:#182852 ;
+    padding-right: 15px;
+    padding-left: 15px; 
+    border:none;
+    border-radius:8px;
+}
+.completed, .pending{
+    margin-top:30px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.y1{
+    color:rgb(254, 197, 8);
+    margin-bottom:20px;
+    background-color:#182852 ;
+    padding-right: 15px;
+    padding-left: 15px; 
+    border:none;
+    border-radius:8px;
+}
+.completed .pending{
+    margin-top:30px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
